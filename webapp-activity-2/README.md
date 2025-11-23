@@ -8,15 +8,11 @@
 Firebase Authentication, Firestore, Security Rules를 활용하여  
 기본적인 앱의 데이터 흐름과 인증/권한 구조를 이해하는 것이 목표입니다.
 
----
-
 ## 📘 학습 목표
 
 - Firebas 인증 및 FirebaseUI로 사용자 인증 처리
 - Cloud Firestore를 사용하여 데이터 동기화
 - Firebase 보안 규칙(Security Rules) 작성 및 적용
-
----
 
 ## 🛠 진행 방법
 
@@ -27,8 +23,6 @@ Firebase Authentication, Firestore, Security Rules를 활용하여
 📎 **실습 링크**  
 https://firebase.google.com/codelabs/firebase-get-to-know-web?hl=ko#0
 
----
-
 ## 🧱 심화 과제 (선택)
 
 ---
@@ -36,8 +30,6 @@ https://firebase.google.com/codelabs/firebase-get-to-know-web?hl=ko#0
 ### 🔐 1) 로그인 화면
 
 - Firebase Auth(Google) 로그인 버튼 구현
-
----
 
 ### 📝 2) 메모 화면 기능
 
@@ -48,14 +40,10 @@ https://firebase.google.com/codelabs/firebase-get-to-know-web?hl=ko#0
 - 업데이트 시간도 함께 표시  
   예: `마지막 수정: 2025-11-14 13:45`
 
----
-
 ### 🔄 3) 로딩 / 에러 처리
 
 - 메모 불러오는 동안 로딩 UI: “불러오는 중…”
 - 저장 실패 시 에러 UI: “저장 실패. 다시 시도해주세요.”
-
----
 
 ### 🗂 4) Firestore Document 구조
 
@@ -66,8 +54,6 @@ users/{uid}/memoDoc
     updatedAt: serverTimestamp()
 }
 ```
-
----
 
 ### 🛡 5) Security Rules 요구사항
 
@@ -94,14 +80,14 @@ match /users/{uid}/memoDoc {
 - “Saved memo:” 컴포넌트 구현
 - 메모가 없을 경우: 아직 작성된 메모가 없습니다 출력
 
-⸻
+---
 
 ## 📤 제출 방법
 
 - **제출 마감:** 11월 24일(월)
 - **제출 방법:** README 참고
 
-⸻
+---
 
 Happy Coding! 🚀  
 GDGoC DGU Web/App 파트
