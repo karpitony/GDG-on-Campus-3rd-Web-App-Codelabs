@@ -1,0 +1,21 @@
+.App_all {
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.logged-in_container {
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.logout_button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
